@@ -1,0 +1,90 @@
+[
+    {
+        "StockCode": "27356-01",
+        "Name": "NAKIŞLI ELBİSE",
+        "Description": {
+            "Urun_bilgisi": "Kruvaze yaka, uzun kollu, düşük omuzlu, astarlı, crop boy, tam kalıp, düz kesim, blazer ceket",
+            "Fabric": "%90 Polyester %10 Likra",
+            "Model_measurements": "Boy: 1.72, Göğüs: 86, Bel: 64, Kalça: 90",
+            "Product_measurements": "Boy: 42 cm Kol: 62 cm",
+            "Sample_size": "Modelin üzerindeki ürünS/36bedendir."
+        },
+        "Images": [
+            "www.aday-butik-resim-sitesi/27356-turuncu-1.jpeg",
+            "www.aday-butik-resim-sitesi/27356-turuncu-2.jpeg",
+            "www.aday-butik-resim-sitesi/27356-turuncu-3.jpeg"
+        ],
+        "Price": 5.24,
+        "DiscountedPrice": 2.24,
+        "Quantity": 9,
+        "Color": "Turuncu",
+        "Series": "1S-1M-2L-1XL",
+        "Season": "2023 Kış"
+    },
+    {
+        "StockCode": "27356-02",
+        "Name": "NAKIŞLI ELBİSE",
+        "Description": {
+            "Urun_bilgisi": "v yaka, kısa kollu, pamuklu, terletmez, iç göstermez, parlak kumaş, standart boy, düz kesim, tan kalıp, gri tişört",
+            "Fabric": "%100 Pamuklu",
+            "Model_measurements": "Boy: 1.74, Göğüs: 85, Bel: 64, Kalça: 91",
+            "Product_measurements": "Boy: 62 cm",
+            "Sample_size": "Modelin üzerindeki ürünS/36bedendir."
+        },
+        "Images": [
+            "www.aday-butik-resim-sitesi/27356-sarı-1.jpeg",
+            "www.aday-butik-resim-sitesi/27356-sarı-2.jpeg",
+            "www.aday-butik-resim-sitesi/27356-sarı-3.jpeg"
+        ],
+        "Price": 5.24,
+        "DiscountedPrice": 5.24,
+        "Quantity": 0,
+        "Color": "Sarı",
+        "Series": "1S-1M-1L-1XL",
+        "Season": "2023 Kış"
+    },
+    {
+        "StockCode": "62156-01",
+        "Name": "Büzgü Kollu T-shirt",
+        "Description": {
+            "Urun_bilgisi": "Yuvarlak yaka, ince askılı, yanı büzgülü, bağcık detaylı, terletmez, likralı kumaş, dar kalıp, dar kesim, crop",
+            "Fabric": "",
+            "Model_measurements": "Boy: 1.73, Kilo: 50, Göğüs: 87, Bel: 63, Kalça: 88",
+            "Product_measurements": "Unknown",
+            "Sample_size": "Unknown"
+        },
+        "Images": [
+            "www.aday-butik-resim-sitesi/62156-ekru-1.jpeg",
+            "www.aday-butik-resim-sitesi/62156-ekru-2.jpeg",
+            "www.aday-butik-resim-sitesi/62156-ekru-3.jpeg"
+        ],
+        "Price": 3.24,
+        "DiscountedPrice": 0.0,
+        "Quantity": 0,
+        "Color": "Ekru",
+        "Series": "1M-1L-1XL",
+        "Season": "2023 Yaz"
+    },
+    {
+        "StockCode": "62156-02",
+        "Name": "Büzgü Kollu T-shirt",
+        "Description": {
+            "Urun_bilgisi": "Polo yaka, düğmeli, göğüs ve sırt dekolteli, likralı, triko kumaş, likralı, crop boy, dar kalıp, dar kesim, bluz",
+            "Fabric": "Triko",
+            "Model_measurements": "Boy: 1.73, Kilo: 50, Göğüs: 87, Bel: 63, Kalça: 88",
+            "Product_measurements": "Unknown",
+            "Sample_size": "Modelin üzerindeki ürünSTDbedendir."
+        },
+        "Images": [
+            "www.aday-butik-resim-sitesi/62156-vizon-1.jpeg",
+            "www.aday-butik-resim-sitesi/62156-vizon-2.jpeg",
+            "www.aday-butik-resim-sitesi/62156-vizon-3.jpeg"
+        ],
+        "Price": 3.24,
+        "DiscountedPrice": 1.24,
+        "Quantity": 0,
+        "Color": "Vizon",
+        "Series": "1M-1L-1XL",
+        "Season": "2023 Yaz"
+    }
+]
