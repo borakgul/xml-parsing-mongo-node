@@ -1,0 +1,253 @@
+{
+	"info": {
+		"_postman_id": "dae57125-a4b2-491a-8e00-b58c98cc316c",
+		"name": "Product Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34454707"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "/register - Create User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"borakgul\",\r\n  \"email\": \"bora@example.com\",\r\n  \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/auth/register",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/login -Authenticate user",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"bora@example.com\",\r\n  \"password\": \"123456\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/auth/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "/<_id> product by _id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTc3OTQxOSwiZXhwIjoxNzMxNzgzMDE5fQ.4mtWGWWiG3hzT83KM_yEzmIZc1hq3mTsgoLR7148Vlk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products/27356-01",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"27356-01"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "./import JSON to DB (Update and Create",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTc3OTQxOSwiZXhwIjoxNzMxNzgzMDE5fQ.4mtWGWWiG3hzT83KM_yEzmIZc1hq3mTsgoLR7148Vlk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "file",
+							"file": {}
+						},
+						"url": {
+							"raw": "{{url}}/api/products//import",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"",
+								"import"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get product by StockCode",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTc3OTQxOSwiZXhwIjoxNzMxNzgzMDE5fQ.4mtWGWWiG3hzT83KM_yEzmIZc1hq3mTsgoLR7148Vlk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/products/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								""
+							],
+							"query": [
+								{
+									"key": "Authorization:",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5MjYyNjA4NjNhYWI3ZDMyOGU2NCIsImlhdCI6MTczMTY5NTI5MSwiZXhwIjoxNzMxNjk4ODkxfQ.B4YqHEYe3MUgbE-8ijp3KzRaGVj-Q-_0g21m5aEhQco",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add specific item",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTc3OTQxOSwiZXhwIjoxNzMxNzgzMDE5fQ.4mtWGWWiG3hzT83KM_yEzmIZc1hq3mTsgoLR7148Vlk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"StockCode\": \"27356-01\",\r\n  \"Name\": \"Yeni Ürün\",\r\n  \"Description\": {\r\n    \"Urun_bilgisi\": \"Rahat kesim, yeni sezon.\",\r\n    \"Fabric\": \"%100 Pamuk\",\r\n    \"Model_measurements\": \"Boy: 1.80, Göğüs: 95, Bel: 75, Kalça: 100\",\r\n    \"Product_measurements\": \"Boy: 70 cm, Kol: 65 cm\",\r\n    \"Sample_size\": \"L\"\r\n  },\r\n  \"Images\": [\"image1.jpg\", \"image2.jpg\"],\r\n  \"Price\": 100,\r\n  \"DiscountedPrice\": 80,\r\n  \"Quantity\": 10,\r\n  \"Color\": \"Mavi\",\r\n  \"Series\": \"M-L-XL\",\r\n  \"Season\": \"2024 Yaz\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products/add",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/<StockCode> Update item",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTcwMjM4NCwiZXhwIjoxNzMxNzA1OTg0fQ.5AKDjUojEuuNHd2Q9Q9je28jnIpamyChmpuwqzYw5sM",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Name\": \"yeni Güncelleme\",\r\n  \"Price\": 12.99,\r\n  \"DiscountedPrice\": 9.99,\r\n  \"Quantity\": 5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/27356-01",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"27356-01"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
