@@ -12,9 +12,7 @@ This project allows you to parse XML files, convert them to JSON, and store the 
 - [Configuration](#-configuration)
 - [Usage](#-usage)
 - [API Endpoints](#-api-endpoints)
-- [Screenshots](#-screenshots)
-- [Contributing](#-contributing)
-- [License](#-license)
+
 
 ---
 
@@ -90,3 +88,6 @@ npx nodemon src/index.js
 The token received with user login should be sent to Headers as:
 **Key: Authorization**
 **Value: Token Value**
+
+You can import the Postman collection for testing the API:
+- [Download Collection](Product Postman.postman_collection.json)
