@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Products>
+  <!-- Mevcut ürün - Güncelleme -->
+  <Product ProductId="27356-01" Name="DÜZ ELBİSE">
+    <Images>
+      <Image Path="www.aday-butik-resim-sitesi/27356-turuncu-4.jpeg"/>
+    </Images>
+    <ProductDetails>
+      <ProductDetail Name="Price" Value="6.50"/>
+      <ProductDetail Name="DiscountedPrice" Value="5.00"/>
+      <ProductDetail Name="ProductType" Value="Elbise"/>
+      <ProductDetail Name="Quantity" Value="12"/>
+      <ProductDetail Name="Color" Value="Kırmızı"/>
+      <ProductDetail Name="Series" Value="2S-3M-2L"/>
+      <ProductDetail Name="Season" Value="2024 Yaz"/>
+    </ProductDetails>
+    <Description>
+     <![CDATA[ <ul><li><strong>Ürün Bilgisi:</strong>Kruvaze yaka, uzun kollu, düşük omuzlu, astarlı, crop boy, tam kalıp, düz kesim, blazer ceket</li><li><strong>Kumaş Bilgisi:</strong>%90 Polyester %10 Likra</li><li><strong>Ürün Ölçüleri1:</strong>&nbsp;Boy: 42 cm Kol: 62 cm</li><li><strong>Model Ölçüleri:</strong>&nbsp;Boy: 1.72, Göğüs: 86,&nbsp;Bel: 64, Kalça: 90</li><li>Modelin üzerindeki ürün <strong>S/36</strong>&nbsp;bedendir.</li><li>Bedenler arası +/- sapma olabilir.</li></ul> ]]>
+
+    </Description>
+  </Product>
+
+  <!-- Yeni ürün - Ekleme -->
+  <Product ProductId="62157-01" Name="ŞİFON BLUZ">
+    <Images>
+      <Image Path="www.aday-butik-resim-sitesi/62157-beyaz-1.jpeg"/>
+      <Image Path="www.aday-butik-resim-sitesi/62157-beyaz-2.jpeg"/>
+    </Images>
+    <ProductDetails>
+      <ProductDetail Name="Price" Value="4.20"/>
+      <ProductDetail Name="DiscountedPrice" Value="3.50"/>
+      <ProductDetail Name="ProductType" Value="Bluz"/>
+      <ProductDetail Name="Quantity" Value="7"/>
+      <ProductDetail Name="Color" Value="Beyaz"/>
+      <ProductDetail Name="Series" Value="1S-2M-1L"/>
+      <ProductDetail Name="Season" Value="2024 İlkbahar"/>
+    </ProductDetails>
+    <Description>
+      <![CDATA[
+        <ul>
+          <li><strong>Ürün Bilgisi:</strong> V yaka, şifon kumaş, yarım kollu, ince detaylı bluz</li>
+          <li><strong>Kumaş Bilgisi:</strong> %70 Viskon %30 Polyester</li>
+          <li><strong>Model Ölçüleri:</strong> Boy: 1.68, Göğüs: 84, Bel: 62, Kalça: 90</li>
+          <li><strong>Modelin üzerindeki ürün:</strong> S/36 bedendir.</li>
+        </ul>
+      ]]>
+    </Description>
+  </Product>
+
+  <!-- Mevcut ürün - Güncelleme -->
+  <Product ProductId="62156-01" Name="BÜZGÜ KOLLU T-SHIRT">
+    <Images>
+      <Image Path="www.aday-butik-resim-sitesi/62156-ekru-4.jpeg"/>
+    </Images>
+    <ProductDetails>
+      <ProductDetail Name="Price" Value="3.50"/>
+      <ProductDetail Name="DiscountedPrice" Value="2.50"/>
+      <ProductDetail Name="ProductType" Value="T-shirt"/>
+      <ProductDetail Name="Quantity" Value="15"/>
+      <ProductDetail Name="Color" Value="Ekru"/>
+      <ProductDetail Name="Series" Value="1S-1M-2L-1XL"/>
+      <ProductDetail Name="Season" Value="2024 Yaz"/>
+    </ProductDetails>
+    <Description>
+      <![CDATA[
+        <ul>
+          <li><strong>Ürün Bilgisi:</strong> Büzgü kollu, rahat kesim, crop t-shirt</li>
+          <li><strong>Kumaş Bilgisi:</strong> %100 Pamuk</li>
+          <li><strong>Model Ölçüleri:</strong> Boy: 1.72, Kilo: 50, Göğüs: 87, Bel: 63, Kalça: 88</li>
+          <li><strong>Modelin üzerindeki ürün:</strong> M/38 bedendir.</li>
+        </ul>
+      ]]>
+    </Description>
+  </Product>
+
+  <!-- Yeni ürün - Ekleme -->
+  <Product ProductId="62158-01" Name="KOT CEKET">
+    <Images>
+      <Image Path="www.aday-butik-resim-sitesi/62158-kot-1.jpeg"/>
+    </Images>
+    <ProductDetails>
+      <ProductDetail Name="Price" Value="7.99"/>
+      <ProductDetail Name="DiscountedPrice" Value="6.49"/>
+      <ProductDetail Name="ProductType" Value="Ceket"/>
+      <ProductDetail Name="Quantity" Value="20"/>
+      <ProductDetail Name="Color" Value="Açık Mavi"/>
+      <ProductDetail Name="Series" Value="1S-2M-1L-2XL"/>
+      <ProductDetail Name="Season" Value="2024 Sonbahar"/>
+    </ProductDetails>
+    <Description>
+      <![CDATA[
+        <ul>
+          <li><strong>Ürün Bilgisi:</strong> Oversize kot ceket, düğmeli, yan cepli</li>
+          <li><strong>Kumaş Bilgisi:</strong> %100 Pamuk</li>
+          <li><strong>Model Ölçüleri:</strong> Boy: 1.75, Göğüs: 90, Bel: 66, Kalça: 95</li>
+          <li><strong>Modelin üzerindeki ürün:</strong> L/40 bedendir.</li>
+        </ul>
+      ]]>
+    </Description>
+  </Product>
+</Products>

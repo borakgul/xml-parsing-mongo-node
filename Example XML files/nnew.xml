@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<Products>
+    <Product ProductId="98234-01" Name="Oversize Tişört">
+        <Images>
+            <Image Path="www.aday-butik-resim-sitesi/98234-beyaz-1.jpeg"/>
+            <Image Path="www.aday-butik-resim-sitesi/98234-beyaz-2.jpeg"/>
+        </Images>
+        <ProductDetails>
+            <ProductDetail Name="Price" Value="12.50"/>
+            <ProductDetail Name="DiscountedPrice" Value="10.00"/>
+            <ProductDetail Name="Quantity" Value="15"/>
+            <ProductDetail Name="Color" Value="Beyaz"/>
+            <ProductDetail Name="Series" Value="M-L-XL"/>
+            <ProductDetail Name="Season" Value="2024 İlkbahar"/>
+        </ProductDetails>
+        <Description>
+            <![CDATA[
+            <ul>
+                <li><strong>Ürün Bilgisi:</strong> Oversize kesim, nefes alabilen kumaş, günlük kullanım için ideal.</li>
+                <li><strong>Kumaş Bilgisi:</strong> %100 Pamuk</li>
+                <li><strong>Model Ölçüleri:</strong> Boy: 1.85, Göğüs: 98, Bel: 82, Kalça: 95</li>
+                <li><strong>Ürün Ölçüleri3:</strong> Boy: 75 cm, Kol: 28 cm</li>
+                <li>Modelin üzerindeki ürün <strong>M</strong> bedendir.</li>
+            </ul>
+            ]]>
+        </Description>
+    </Product>
+
+    <Product ProductId="29485-02" Name="Keten Şort">
+        <Images>
+            <Image Path="www.aday-butik-resim-sitesi/29485-bej-1.jpeg"/>
+            <Image Path="www.aday-butik-resim-sitesi/29485-bej-2.jpeg"/>
+        </Images>
+        <ProductDetails>
+            <ProductDetail Name="Price" Value="9.99"/>
+            <ProductDetail Name="DiscountedPrice" Value="8.49"/>
+            <ProductDetail Name="Quantity" Value="20"/>
+            <ProductDetail Name="Color" Value="Bej"/>
+            <ProductDetail Name="Series" Value="S-M-L"/>
+            <ProductDetail Name="Season" Value="2024 Yaz"/>
+        </ProductDetails>
+        <Description>
+            <![CDATA[
+            <ul>
+                <li><strong>Ürün Bilgisi:</strong> Rahat kesim, yaz için hafif ve serin tutar.</li>
+                <li><strong>Kumaş Bilgisi:</strong> %70 Pamuk %30 Keten</li>
+                <li><strong>Model Ölçüleri:</strong> Boy: 1.80, Bel: 78, Kalça: 92</li>
+                <li><strong>Ürün Ölçüleri:</strong> Boy: 50 cm</li>
+                <li>Modelin üzerindeki ürün <strong>S</strong> bedendir.</li>
+            </ul>
+            ]]>
+        </Description>
+    </Product>
+
+    <Product ProductId="46592-03" Name="Yüksek Bel Kot Pantolon">
+        <Images>
+            <Image Path="www.aday-butik-resim-sitesi/46592-mavi-1.jpeg"/>
+            <Image Path="www.aday-butik-resim-sitesi/46592-mavi-2.jpeg"/>
+            <Image Path="www.aday-butik-resim-sitesi/46592-mavi-3.jpeg"/>
+        </Images>
+        <ProductDetails>
+            <ProductDetail Name="Price" Value="24.99"/>
+            <ProductDetail Name="DiscountedPrice" Value="19.99"/>
+            <ProductDetail Name="Quantity" Value="10"/>
+            <ProductDetail Name="Color" Value="Mavi"/>
+            <ProductDetail Name="Series" Value="38-40-42"/>
+            <ProductDetail Name="Season" Value="2024 Sonbahar"/>
+        </ProductDetails>
+        <Description>
+            <![CDATA[
+            <ul>
+                <li><strong>Ürün Bilgisi:</strong> Yüksek bel, dar kesim, likralı kumaş.</li>
+                <li><strong>Kumaş Bilgisi:</strong> %95 Pamuk %5 Elastan</li>
+                <li><strong>Model Ölçüleri:</strong> Boy: 1.70, Bel: 70, Kalça: 96</li>
+                <li><strong>Ürün Ölçüleri:</strong> Boy: 100 cm</li>
+                <li>Modelin üzerindeki ürün <strong>38</strong> bedendir.</li>
+            </ul>
+            ]]>
+        </Description>
+    </Product>
+
+    <Product ProductId="58721-04" Name="Triko Kazak">
+        <Images>
+            <Image Path="www.aday-butik-resim-sitesi/58721-gri-1.jpeg"/>
+            <Image Path="www.aday-butik-resim-sitesi/58721-gri-2.jpeg"/>
+        </Images>
+        <ProductDetails>
+            <ProductDetail Name="Price" Value="29.99"/>
+            <ProductDetail Name="DiscountedPrice" Value="25.99"/>
+            <ProductDetail Name="Quantity" Value="5"/>
+            <ProductDetail Name="Color" Value="Gri"/>
+            <ProductDetail Name="Series" Value="L-XL-XXL"/>
+            <ProductDetail Name="Season" Value="2024 Kış"/>
+        </ProductDetails>
+        <Description>
+            <![CDATA[
+            <ul>
+                <li><strong>Ürün Bilgisi:</strong> Yuvarlak yaka, hafif yün karışımı, soğuk havalar için ideal.</li>
+                <li><strong>Kumaş Bilgisi:</strong> %80 Akrilik %20 Yün</li>
+                <li><strong>Model Ölçüleri:</strong> Boy: 1.75, Göğüs: 92, Bel: 78</li>
+                <li><strong>Ürün Ölçüleri:</strong> Boy: 65 cm, Kol: 60 cm</li>
+                <li>Modelin üzerindeki ürün <strong>L</strong> bedendir.</li>
+            </ul>
+            ]]>
+        </Description>
+    </Product>
+
+    <Product ProductId="87456-05" Name="Desenli Elbise">
+        <Images>
+            <Image Path="www.aday-butik-resim-sitesi/87456-çiçekli-1.jpeg"/>
+            <Image Path="www.aday-butik-resim-sitesi/87456-çiçekli-2.jpeg"/>
+        </Images>
+        <ProductDetails>
+            <ProductDetail Name="Price" Value="34.50"/>
+            <ProductDetail Name="DiscountedPrice" Value="30.00"/>
+            <ProductDetail Name="Quantity" Value="7"/>
+            <ProductDetail Name="Color" Value="Çiçekli"/>
+            <ProductDetail Name="Series" Value="S-M-L"/>
+            <ProductDetail Name="Season" Value="2024 İlkbahar"/>
+        </ProductDetails>
+        <Description>
+            <![CDATA[
+            <ul>
+                <li><strong>Ürün Bilgisi:</strong> Çiçek desenli, diz boyu, kemer detaylı.</li>
+                <li><strong>Kumaş Bilgisi:</strong> %100 Viskon</li>
+                <li><strong>Model Ölçüleri:</strong> Boy: 1.68, Göğüs: 84, Bel: 66, Kalça: 90</li>
+                <li><strong>Ürün Ölçüleri:</strong> Boy: 90 cm</li>
+                <li>Modelin üzerindeki ürün <strong>S</strong> bedendir.</li>
+            </ul>
+            ]]>
+        </Description>
+    </Product>
+</Products>
