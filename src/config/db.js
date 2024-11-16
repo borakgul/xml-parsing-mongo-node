@@ -1,15 +1,22 @@
-const mongoose = require('mongoose');
+//Load environment variables from .env file.
+// !!! That file will be secret and not committed to the repository.
+// !!! It will contain sensitive data like database connection strings. 
 require('dotenv').config();
 
-// Function to connect to MongoDB using mongoose
-const connectDB = async () => {
-  try {
-    await mongoose.connect(process.env.MONGO_URI);
-    console.log('MongoDB connected');
-  } catch (err) {
-    console.error('Database connection error:', err);
-    process.exit(1); // Exit process with failure
-  }
-};
+const express = require('express');
+const connectDB = require('./config/db');
 
-module.exports = connectDB;
+// Initialize the Express application
+const app = express();
+
+// Connect to MongoDB
+connectDB();
+
+// Middleware to parse incoming JSON requests. It comes with Express.
+app.use(express.json());
+
+//Define the port the server will listen on (from .env file or default to 4000)
+const PORT = process.env.PORT || 4000;
+
+//Start the server and listen on the specified port
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
