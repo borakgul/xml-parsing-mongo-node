@@ -89,5 +89,5 @@ The token received with user login should be sent to Headers as:
 **Key: Authorization**
 **Value: Token Value**
 
-You can import the Postman collection for testing the API:
-- [Download Collection](Product Postman.postman_collection.json)
+**You can import the Postman collection for testing the API. Use the JSON file in the Postman folder.**
+
