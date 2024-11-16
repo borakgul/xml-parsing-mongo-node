@@ -1,7 +1,6 @@
 # 🛠️ XML Parsing & MongoDB Integration Project
 
 **XML Parsing & MongoDB Integration**  
-This project allows you to parse XML files, convert them to JSON, and store the data in a MongoDB database. It's for managing large datasets and integrating them into modern applications. 
 
 ---
 
@@ -17,11 +16,19 @@ This project allows you to parse XML files, convert them to JSON, and store the 
 ---
 
 ## 🌟 Features
-- Parse XML files and convert them to JSON format.
-- Store and manage data in a MongoDB database.
-- API endpoints for CRUD operations.
-- Secure authentication using JWT tokens.
-- Efficient error handling and logging.
+**Project Overview**  
+This project is designed to parse data from a specific XML file, convert it to JSON format, and insert it into a MongoDB database upon sending a request to the `/import` endpoint. The `Name` field of each product is required to start with an uppercase letter; otherwise, the request will be rejected.
+
+**Key Features**
+- **Dynamic Field Management**: The fields `isDiscount`, `Active`, and `updatedAt` in the `Product` model are dynamically updated based on the data provided.
+- **Model Structure**:
+  - **User**: Handles user authentication and authorization using JWT.
+  - **Product**: Manages product data with fields like `StockCode`, `Description`, `Price`, etc.
+- **Conditional Product Insertion**: 
+  - When inserting a specific product, the system checks the `StockCode` to determine if the product already exists.
+  - If the product does not exist, it will be added to the database.
+  - If the product already exists, an error message will be returned.
+- **Data Parsing**: Parses and extracts data from a predefined XML format and converts it into JSON format for further processing.
 
 ---
 
