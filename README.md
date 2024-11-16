@@ -45,7 +45,7 @@ Ensure you have the following installed:
 - [Git](https://git-scm.com/)
 
 # Install all the project dependencies
-`$ npm install`
+
 ### Clone the Repository
 ```bash
 git clone https://github.com/your-username/xml-parsing-mongo-node.git
