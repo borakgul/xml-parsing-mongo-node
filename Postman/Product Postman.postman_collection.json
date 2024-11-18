@@ -89,7 +89,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTc3OTQxOSwiZXhwIjoxNzMxNzgzMDE5fQ.4mtWGWWiG3hzT83KM_yEzmIZc1hq3mTsgoLR7148Vlk",
+								"value": "your_token_value",
 								"type": "text"
 							}
 						],
@@ -126,7 +126,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTc3OTQxOSwiZXhwIjoxNzMxNzgzMDE5fQ.4mtWGWWiG3hzT83KM_yEzmIZc1hq3mTsgoLR7148Vlk",
+								"value": "your_token_value",
 								"type": "text"
 							}
 						],
@@ -156,7 +156,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTc3OTQxOSwiZXhwIjoxNzMxNzgzMDE5fQ.4mtWGWWiG3hzT83KM_yEzmIZc1hq3mTsgoLR7148Vlk",
+								"value": "your_token_value",
 								"type": "text"
 							}
 						],
@@ -173,7 +173,7 @@
 							"query": [
 								{
 									"key": "Authorization:",
-									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5MjYyNjA4NjNhYWI3ZDMyOGU2NCIsImlhdCI6MTczMTY5NTI5MSwiZXhwIjoxNzMxNjk4ODkxfQ.B4YqHEYe3MUgbE-8ijp3KzRaGVj-Q-_0g21m5aEhQco",
+									"value": "your_token_value",
 									"disabled": true
 								}
 							]
@@ -188,7 +188,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTc3OTQxOSwiZXhwIjoxNzMxNzgzMDE5fQ.4mtWGWWiG3hzT83KM_yEzmIZc1hq3mTsgoLR7148Vlk",
+								"value": "your_token_value",
 								"type": "text"
 							}
 						],
@@ -222,7 +222,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzc5YTI0ZmM4NzM3YmViMGZkODIxZiIsImlhdCI6MTczMTcwMjM4NCwiZXhwIjoxNzMxNzA1OTg0fQ.5AKDjUojEuuNHd2Q9Q9je28jnIpamyChmpuwqzYw5sM",
+								"value": "your_token_value",
 								"type": "text"
 							}
 						],
